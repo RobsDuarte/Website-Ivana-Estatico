@@ -239,7 +239,16 @@ header{
             text-align: center
         }    
         figure{
-            display: none;
+            display: flex;
+            justify-content: center;            
+            img
+            {          
+                width: clamp(250px,50vw,300px);                    
+                border-radius: 20px; 
+                box-shadow: 5px 5px 10px 10px $pink; 
+                                                 
+            } 
+            
         }                    
     } 
     p{

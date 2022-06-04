@@ -279,7 +279,19 @@ header span {
 }
 
 .conteudo-dinamico article figure {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.conteudo-dinamico article figure img {
+  width: clamp(250px, 50vw, 300px);
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 10px 10px #ecb2ec;
+          box-shadow: 5px 5px 10px 10px #ecb2ec;
 }
 
 .conteudo-dinamico p {
