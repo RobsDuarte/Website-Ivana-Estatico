@@ -23,9 +23,6 @@ body {
 p {
   max-width: 50ch;
   min-width: 20ch;
-  -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
 }
 
 :is(.firstSection, .buttons, .conteudo-dinamico, .price-table) {
