@@ -231,6 +231,7 @@ header span {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   font-size: 1.3rem;
   font-family: 'Zen Antique', serif;
 }
@@ -295,10 +296,36 @@ header span {
   margin: .5em;
 }
 
+table {
+  border-collapse: collapse;
+  width: clamp(50vw, 90vw, 400px);
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+caption {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+td, th {
+  border: 2px solid darkorchid;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #ecb2ec;
+}
+
 footer {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f9e5f9), to(darkorchid));
   background-image: linear-gradient(#f9e5f9, darkorchid);
   display: block;
+  height: clamp(60px, 80px, 90px);
 }
 
 footer section {

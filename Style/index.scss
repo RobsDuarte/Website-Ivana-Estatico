@@ -208,6 +208,7 @@ header{
     flex-direction: row;
     justify-content: center;
     margin-bottom: 1rem;
+    margin-top: 1rem;
     font-size: 1.3rem;
     font-family: 'Zen Antique', serif;   
     
@@ -257,9 +258,35 @@ header{
         
 }
 
+table
+{
+    border-collapse: collapse;     
+    width: clamp(50vw,90vw,400px);
+    margin: 0 auto;
+    margin-top: 1rem;        
+}
+caption
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-style:oblique;
+    font-weight: bold;
+}
+td,th
+{
+    border: 2px solid $purple;    
+    padding: 8px;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color:$pink ;
+  }
+
 footer{
     background-image:linear-gradient($light-pink,$purple);
-    display: block;    
+    display: block;        
+    height: clamp(60px,80px,90px); 
     section{        
         color: $color-primary;
         display: flex;
