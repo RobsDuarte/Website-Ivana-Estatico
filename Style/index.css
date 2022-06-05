@@ -298,7 +298,7 @@ header span {
 
 table {
   border-collapse: collapse;
-  width: clamp(50vw, 90vw, 400px);
+  width: clamp(50vw, 90vw, 300px);
   margin: 0 auto;
   margin-top: 1rem;
 }
